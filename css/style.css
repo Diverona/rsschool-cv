@@ -1,0 +1,116 @@
+h1, h2 {
+	padding-bottom: 0px;
+	/* border-bottom: 1.5px solid #859ebd; */
+	text-transform: uppercase;
+}
+
+.container {
+	max-width: 1024px;	
+	margin: 50px auto;
+	box-shadow: 0 25px 35px rgba(0, 0, 0, 0.5);
+	font-style: 16px;	
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+	text-decoration: none;	
+}
+
+.navigation__link {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #3f6592;
+}
+
+.navigation__link:hover {
+	font-weight: bold;
+	color: #3f6592;
+}
+
+.content {	
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+}
+
+.main {
+		width: 70%;
+	padding: 20px;
+}
+
+.work-experience, .about-myself, .education, .code {
+	position: relative;
+	padding: 0 0 0 50px;
+}
+
+.img-work-experience, .img-about-myself, .img-education {
+position: absolute;
+top: -8px;
+left: 0;
+border: 2px solid #859ebd;
+border-radius: 100px;
+opacity: 0.8;
+}
+
+.currantly-work, .erlier-work, .univercity {
+	display: flex;
+	justify-content: start;
+	padding: 0;
+}
+
+.currantly-work p, .erlier-work p, .univercity p {
+	padding: 0 30px;
+	margin: 0;
+}
+
+.period {
+	position: relative;
+	padding: 0 0 0 40px;
+}
+
+.period:before {
+	content: "";
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    width: 6px;
+    height: 6px;
+    background: #ffffff;
+		border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+.period:after {
+	content: "";
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    width: 1.5px;
+    height: 90%;
+    background: #000000;
+}
+
+.content-left {
+		width: 30%;
+	padding: 20px;
+	background-color: #3f6592;
+	color: #ffffff;
+}
+
+.my-photo {
+	width: 180px;
+	height: 180px;
+	border-radius: 100px;
+	border: 2px solid #ffffff;
+}
+
+footer {
+	height: 100px;
+	background-color: #e6e6e6;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: bold;
+}
