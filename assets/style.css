@@ -63,6 +63,7 @@ opacity: 0.8;
 	display: flex;
 	justify-content: start;
 	padding: 0;
+	margin: 0 0 10px 0
 }
 
 .currantly-work p, .erlier-work p, .univercity p {
@@ -109,6 +110,7 @@ opacity: 0.8;
 	height: 180px;
 	border-radius: 100px;
 	border: 2px solid #ffffff;
+	margin: 0 50px;
 }
 
 .contacts a, .contacts span, .work-example a {
